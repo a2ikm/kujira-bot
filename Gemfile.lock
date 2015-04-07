@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/a2ikm/ruboty-contacts.git
+  revision: f4bf90d59a68c72185c949f9dc7d822078d2dd53
+  specs:
+    ruboty-contacts (0.1.0)
+      activesupport
+      ruboty
+      ruboty-call
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -7,13 +16,16 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    builder (3.2.2)
     chrono (0.0.6)
       activesupport
     dotenv (2.0.1)
     i18n (0.7.0)
     json (1.8.2)
+    jwt (1.4.1)
     mem (0.1.5)
     minitest (5.5.1)
+    multi_json (1.11.0)
     rake (10.4.2)
     redis (3.2.1)
     redis-namespace (1.5.2)
@@ -24,6 +36,9 @@ GEM
       dotenv
       mem
       slop
+    ruboty-call (1.0.0)
+      ruboty
+      twilio-ruby
     ruboty-cron (1.0.0)
       activesupport
       chrono
@@ -39,8 +54,12 @@ GEM
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
       xrc (>= 0.0.6)
-    slop (3.6.0)
+    slop (4.0.0)
     thread_safe (0.3.5)
+    twilio-ruby (3.16.1)
+      builder (>= 2.1.2)
+      jwt (~> 1.0)
+      multi_json (>= 1.3.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     xrc (0.1.5)
@@ -51,6 +70,7 @@ PLATFORMS
 
 DEPENDENCIES
   rake
+  ruboty-contacts!
   ruboty-cron
   ruboty-echo
   ruboty-redis
