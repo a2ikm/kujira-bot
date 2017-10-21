@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/a2ikm/ruboty-call.git
+  remote: https://github.com/a2ikm/ruboty-call.git
   revision: a4bbb7120d2b6905af830ab94491d0a1c5d3f025
   branch: record_option
   specs:
@@ -8,7 +8,7 @@ GIT
       twilio-ruby
 
 GIT
-  remote: git://github.com/a2ikm/ruboty-contacts.git
+  remote: https://github.com/a2ikm/ruboty-contacts.git
   revision: f4bf90d59a68c72185c949f9dc7d822078d2dd53
   specs:
     ruboty-contacts (0.1.0)
@@ -85,6 +85,9 @@ DEPENDENCIES
   ruboty-redis
   ruboty-ruby (>= 0.0.2)
   ruboty-slack
+
+RUBY VERSION
+   ruby 2.4.1p111
 
 BUNDLED WITH
    1.15.4
